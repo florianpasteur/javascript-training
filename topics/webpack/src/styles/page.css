@@ -1,0 +1,21 @@
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 5em;
+    background: #fdfaf6;
+    border: 2px solid #faede5;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    font-size: 5em;
+    color: darkred;
+    line-height: 5em;
+    margin: 0;
+}
+
+
+img {
+    width: 200px;
+}

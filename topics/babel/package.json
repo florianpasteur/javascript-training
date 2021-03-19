@@ -1,0 +1,16 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "Babel topics for Javascript training",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/babel src -d build"
+  },
+  "author": "Florian PASTEUR",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  }
+}

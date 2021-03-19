@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RequireJS Module</title>
+    <script type="text/javascript" src="http://requirejs.org/docs/release/2.3.2/minified/require.js"></script>
+    <style>
+        body {
+            background: #f8f8f8;
+        }
+        .center {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 40%;
+            height: 5em;
+            background: #fdfaf6;
+            border: 2px solid #faede5;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+            font-size: 5em;
+            color: darkred;
+            line-height: 5em;
+            margin: 0;
+        }
+        img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="center" id="placeholder">PLACEHOLDER</div>
+<!-- place content here --->
+<script>
+    requirejs(['js/sentences', 'js/print'], function(sentences, print) {
+        print(sentences.welcome("english", "Florian"));
+        print(sentences.welcome("dutch", "Rami"));
+        print(sentences.welcome("french", "Alice"));
+        print(sentences.bye("english", "Florian"));
+        print(sentences.bye("dutch", "Rami"));
+        print(sentences.bye("french", "Alice"));
+    });
+</script>
+</body>
