@@ -1,4 +1,3 @@
-import {translation} from "./translation.js";
 
 
 export function welcome(language, name) {

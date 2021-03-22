@@ -1,4 +1,4 @@
-module.exports = (function () {
+(function () {
     const lines = [];
     let i = 0;
     setInterval(() => {

@@ -1,6 +1,5 @@
-const translation = require('./translation');
 
-module.exports = {
+const sentences = {
     welcome(language, name) {
         return translation[language].welcome + ' ' + name
     },

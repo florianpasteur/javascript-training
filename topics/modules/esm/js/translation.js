@@ -1,4 +1,4 @@
-export const translation = {
+const translation = {
     "english": {
         welcome: "Welcome",
         bye: "Bye bye"

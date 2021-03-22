@@ -1,5 +1,3 @@
-const print = require('./js/print');
-const sentences = require('./js/sentences');
 
 print(sentences.welcome("english", "Florian"));
 print(sentences.welcome("dutch", "Rami"));

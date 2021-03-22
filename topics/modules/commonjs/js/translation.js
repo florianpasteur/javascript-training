@@ -1,4 +1,4 @@
-module.exports = {
+const translation = {
     "english": {
         welcome: "Welcome",
         bye: "Bye bye"
